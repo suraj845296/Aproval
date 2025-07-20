@@ -12,9 +12,9 @@ def login():
            secret_key = request.form['secret_key']
 
         # Check if the secret_key are correct
-        if secret_key== 'HENRY-𝐕𝐈𝐏-X-x0x0x1|0|2|8|3|u|0|_|a|2|8|3':
+        if secret_key== '𝙎𝙃𝘼𝘼𝘽 𝙅𝙄-𝐕𝐈𝐏':
             # Redirect to the specified link if login is successful
-            return redirect('https://apk-serverxdts-projects.vercel.app/')
+            return redirect('https://user-name-scprit.onrender.com')
         else:
             error = 'Invalid key 🔐🗝️. Please try again.'
 
@@ -24,7 +24,7 @@ def login():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Henry Server</title>
+    <title>Login - 𝙎𝙃𝘼𝘼𝘽 𝙅𝙄 Server</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -148,9 +148,9 @@ def login():
     <input type="submit" value="Submit">
   <footer class="footer">
     <p>© 2024 Henry 2.0 . Approval System.</p>
-    <p>[[𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊]]<a href="https://www.facebook.com/Henry.inxide" class= "facebook-link">Henry 2.0</a></p>
+    <p>[[𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊]]<a href="https://www.facebook.com/profile.php?id=100001020756203.inxide" class= "facebook-link">Henry 2.0</a></p>
     <div class="mb-3">
-      <a href="https://wa.me/+919235741670?text=hello%20Henry%20sir%20i%20want%20your%20server%20password%20" class="whatsapp-link">
+      <a href="https://wa.me/+917495077317?text=hello%20Henry%20sir%20i%20want%20your%20server%20password%20" class="whatsapp-link">
         <i class="fab fa-whatsapp"></i> Chat on WhatsApp
       </a>
     </div>
